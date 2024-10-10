@@ -1,8 +1,8 @@
 function validarFormulario() {
    let nombre = document.getElementById("nombre").value;
    let email = document.getElementById("email").value;
-   let password = document.getElementById("password").value;
-   if (nombre == "" || email == "" || password == "") {
+   let imagen = document.getElementById("imagen").value;
+   if (nombre == "" || email == "" || imagen == "") {
     alert("Favor diligenciar todos los campos...");
     return false;
    }
